@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
         
         {/* Gradient Overlay Box */}
         <div className="absolute left-8 lg:left-16 top-1/2 transform -translate-y-1/2 w-[400px] lg:w-[500px]">
-          <div className="bg-gradient-to-r from-[#4AE5C3] to-[#00D4FF] p-8 lg:p-12 rounded-lg shadow-2xl">
+          <div className="bg-gradient-to-r from-dark to-analogous-2 p-8 lg:p-12 rounded-lg shadow-2xl">
             <h1 className="text-white text-2xl lg:text-4xl font-bold leading-tight mb-6">
               We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
             </h1>

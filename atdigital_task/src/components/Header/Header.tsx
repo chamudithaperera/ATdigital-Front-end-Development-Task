@@ -65,31 +65,38 @@ const Header: React.FC = () => {
         <div className={`md:hidden transition-all duration-300 ease-in-out ${
           isMobileMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
         }`}>
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-dark rounded-lg mt-2">
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-[#ffffff] rounded-lg mt-2">
+            <a
+              href="#"
+              className="text-text-900 hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
+              onClick={toggleMobileMenu}
+            >
+              HOME
+            </a>
             <a
               href="#services"
-              className="text-white hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
+              className="text-text-900 hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
               onClick={toggleMobileMenu}
             >
               SERVICES
             </a>
             <a
               href="#about"
-              className="text-white hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
+              className="text-text-900 hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
               onClick={toggleMobileMenu}
             >
               ABOUT US
             </a>
             <a
               href="#contact"
-              className="text-white hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
+              className="text-text-900 hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
               onClick={toggleMobileMenu}
             >
               CONTACT US
             </a>
             <a
               href="#careers"
-              className="text-white hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
+              className="text-text-900 hover:text-secondary hover:bg-electric-indigo block px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors duration-200"
               onClick={toggleMobileMenu}
             >
               CAREERS
