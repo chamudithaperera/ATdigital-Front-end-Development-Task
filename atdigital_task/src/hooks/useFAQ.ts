@@ -3,7 +3,7 @@ import type { FAQItem } from '../types/index';
 
 export const useFAQ = (initialFAQs: Omit<FAQItem, 'isOpen'>[]) => {
   const [faqs, setFaqs] = useState<FAQItem[]>(
-    initialFAQs.map(faq => ({ ...faq, isOpen: false }))
+    initialFAQs.map((faq, index) => ({ ...faq, isOpen: index === 0 }))
   );
 
   const toggleFAQ = (id: number) => {

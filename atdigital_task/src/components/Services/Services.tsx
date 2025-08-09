@@ -21,10 +21,10 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, index }) => {
 
       {/* Content */}
       <div className={`space-y-6 ${!isImageLeft ? 'lg:order-1' : ''}`}>
-        <h2 className="text-3xl lg:text-4xl font-bold text-primary leading-tight">
+        <h2 className="text-3xl lg:text-3xl font-bold text-primary leading-tight">
           {service.title}
         </h2>
-        <p className="text-gray-600 text-lg leading-relaxed">
+        <p className="text-gray-600 text-lg font-semibold leading-relaxed">
           {service.description}
         </p>
         <button className="bg-secondary hover:bg-secondary/90 text-white font-semibold px-8 py-3 rounded transition-all duration-300">
