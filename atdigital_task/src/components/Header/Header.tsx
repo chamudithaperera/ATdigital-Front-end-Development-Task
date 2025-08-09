@@ -8,10 +8,10 @@ const Header: React.FC = () => {
 
   return (
     <header className="bg-primary text-white relative z-50 shadow-lg">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <nav className="w-full header-padding">
+        <div className="flex items-center justify-between py-[26px]">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center ml-20">
             <img 
               src={atdigitalLogo} 
               alt="AT Digital Logo" 
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden md:block mr-20">
             <div className="ml-10 flex items-baseline space-x-8">
               <a 
                 href="#services" 

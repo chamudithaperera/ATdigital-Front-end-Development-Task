@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 }
+
+/* Custom Header Padding for exact specifications */
+.header-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Tablet view (768px) - 40px horizontal padding */
+@media (min-width: 768px) {
+  .header-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+/* Desktop view (1440px and above) - 80px horizontal padding */
+@media (min-width: 1440px) {
+  .header-padding {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
