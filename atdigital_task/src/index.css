@@ -1,68 +1,46 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* AT Digital Color Scheme */
+@theme {
+  /* Primary Colors */
+  --color-primary: #4F46E5; /* Bluish Purple */
+  --color-secondary: #F28D35; /* Yuzu Jam */
+  
+  /* Analogous Colors */
+  --color-analogous-1: #6A44F2; /* Ice Ice Baby */
+  --color-analogous-2: #1CBDDD; /* Rich Blue */
+  
+  /* Triadic Colors */
+  --color-triadic-1: #52378C; /* Electric Indigo */
+  
+  /* Dark Colors */
+  --color-dark: #4DCA79; /* Interstellar Blue */
+  --color-dark-alt: #52378C; /* Tricorn Black */
+  
+  /* Text Colors */
+  --color-text-900: #52378C; /* Tricorn Black */
+  --color-text-light-500: #9C9991; /* Acier */
+  --color-text-subtle-500: #9C9991; /* Acier */
+  
+  /* Accent Colors */
+  --color-accent-50: #E2F2FE; /* Wizard White */
+  --color-accent-alt-50: #FFF8E0; /* Cuddly Yarn */
+  
+  /* Status Colors */
+  --color-error-600: #FFF8E0; /* Hornet Sting */
+  --color-success-600: #FFF8E0; /* Frog */
+  
+  /* Extended Color Palette */
+  --color-bluish-purple: #4F46E5;
+  --color-yuzu-jam: #F28D35;
+  --color-ice-ice-baby: #6A44F2;
+  --color-rich-blue: #1CBDDD;
+  --color-electric-indigo: #52378C;
+  --color-interstellar-blue: #4DCA79;
+  --color-tricorn-black: #52378C;
+  --color-acier: #9C9991;
+  --color-wizard-white: #E2F2FE;
+  --color-cuddly-yarn: #FFF8E0;
+  --color-hornet-sting: #FFF8E0;
+  --color-frog: #FFF8E0;
 }
