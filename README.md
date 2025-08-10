@@ -8,7 +8,7 @@ A responsive, modern website built with React, TypeScript, and Tailwind CSS show
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop Homepage](./src/assets/desktop-homepage.png)
+![Desktop Homepage](./atdigital_task/src/assets/desktop-homepage.png)
 *Modern hero section with gradient overlay and call-to-action*
 
 ### Mobile View
