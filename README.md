@@ -2,7 +2,7 @@
 
 A responsive, modern website built with React, TypeScript, and Tailwind CSS showcasing AT Digital's services and expertise in digital marketing and web development.
 
-![AT Digital Website](./src/assets/atdigitalLogo.png)
+![AT Digital Website](./atdigital_task/src/assets/atdigitalLogo.png)
 
 
 ## 📸 Screenshots
